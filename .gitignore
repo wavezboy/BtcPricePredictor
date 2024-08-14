@@ -128,18 +128,18 @@ cython_debug/
 # SQL Databases
 *.sqlite3
 
-# Data files
-*.csv
-*.h5
-*.parquet
+# # Data files
+# *.csv
+# *.h5
+# *.parquet
 
-# Models
-*.pkl
-*.joblib
+# # Models
+# *.pkl
+# *.joblib
 
-# Jupyter Notebook
-.ipynb_checkpoints/
-*.ipynb
+# # Jupyter Notebook
+# .ipynb_checkpoints/
+# *.ipynb
 
 # VS Code
 .vscode/
