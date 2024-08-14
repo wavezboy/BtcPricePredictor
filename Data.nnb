@@ -1,0 +1,57 @@
+{
+    "cells": [
+        {
+            "language": "typescript",
+            "source": [
+                "const abdul = [[1,3], [2, 3], [3, 4]]"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "source": [
+                "abdul.map((a)=>{\r\n    console.log(a);\r\n    \r\n})"
+            ],
+            "outputs": [
+                {
+                    "items": [
+                        {
+                            "mime": "application/vnd.code.notebook.stdout",
+                            "value": [
+                                "[ 1, 3 ]",
+                                "",
+                                ""
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "items": [
+                        {
+                            "mime": "text/plain",
+                            "value": [
+                                "[",
+                                "  \u001b[90mundefined\u001b[39m,",
+                                "  \u001b[90mundefined\u001b[39m,",
+                                "  \u001b[90mundefined\u001b[39m",
+                                "]"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
