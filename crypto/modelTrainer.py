@@ -9,7 +9,7 @@ def train_model(ohlc_data: pd.DataFrame):
     
     # Extract features (X) and target (y)
     X = ohlc_data[['open', 'high', 'low', 'return']].values  # Extract all rows for these columns
-    y = ohlc_data[''].shift(-1).dropna().values  # Target is the shifted 'return'
+    y = ohlc_data['close'].shift(-1).dropna().values  # Target is the shifted 'return'
     
     # To ensure the lengths match after the shift and dropna
     X = X[:-1]  # Remove the last row in X to match the length of y after shifting
